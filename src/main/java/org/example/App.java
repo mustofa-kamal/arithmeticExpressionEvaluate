@@ -7,7 +7,7 @@ public class App {
 
     public static void main(String[] args) {
 
-        String exp = "(1+2) * (4 - 2) ";
+        String exp = "1+2*3";
 
         ArithmeticExpressionUtil arithmeticExpressionUtil = new ArithmeticExpressionUtil();
 
