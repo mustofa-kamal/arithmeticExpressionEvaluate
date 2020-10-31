@@ -1,20 +1,29 @@
 package org.example;
 
-import java.util.ArrayList;
-import java.util.List;
-
 /**
  * Hello world!
- *
  */
-public class App 
-{
-    public static void main( String[] args )
-    {
-        List<String> s= new ArrayList<>();
-        s.add("s fsf ");
-        s.add("dadadad");
-        s.stream().forEach(System.out::println);
-        System.out.println( "Hello World!" );
+public class App {
+
+    public static void main(String[] args) {
+
+        String exp = "(1+2) * (4 - 2) ";
+
+        ArithmeticExpressionUtil arithmeticExpressionUtil = new ArithmeticExpressionUtil();
+
+
+        int result = arithmeticExpressionUtil.calculate(exp);
+
+        System.out.println(result);
+
+
     }
+
+
 }
+
+
+
+
+
+
