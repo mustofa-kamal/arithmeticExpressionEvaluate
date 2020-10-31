@@ -1,0 +1,3 @@
+ - clone this repo
+ - go to arithmeticExpressionEvaluate directory
+ - run this command: mvn test
